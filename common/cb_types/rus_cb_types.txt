@@ -1,0 +1,80 @@
+# INSTRUCTIONS:
+# -------------
+# is_triggered_only - Triggered from within the code or by event effects. DO NOT REMOVE THE STOCK ONES.
+# months - The number of months this CB will be valid. Only works for triggered CBs.
+# prerequisites - A condition that automatically activates a CB. Does not work for triggered CBs.
+# no_opinion_hit - If yes you get no negative opinion from this
+#
+# ROOT = attacker
+# FROM = target
+#
+# NOTE: The order in which the peace options are listed is the order in which the AI will normally prioritize them in peace treaties
+#
+# TRIGGERED - Triggered from within the code or by event effects
+# --------------------------------------------------------------
+
+cb_unite_rus_principalities = {
+	valid_for_subject = no
+
+	prerequisites = {
+		OR = {
+			culture_group = east_slavic
+			has_reform = principality
+		}
+		OR = {
+			AND = {
+				capital_scope = { region = ruthenia_region }
+				FROM = { capital_scope = { region = ruthenia_region } }
+			}
+			AND = {
+				capital_scope = { region = russia_region }
+				FROM = { capital_scope = { region = russia_region } }
+			}
+		}
+		NOT = { government = republic }
+		legitimacy = 100
+		FROM = {
+			OR = {
+				culture_group = east_slavic
+				has_reform = principality
+			}
+			total_development = 30
+		}
+	}
+
+	war_goal = take_capital_personal_union
+}
+
+cb_gather_lands_of_rus = {
+	valid_for_subject = no
+
+	prerequisites = {
+		OR = {
+			culture_group = east_slavic
+			has_reform = principality
+		}
+		legitimacy = 100
+		OR = {
+			AND = {
+				capital_scope = { region = ruthenia_region }
+				FROM = { capital_scope = { region = ruthenia_region } }
+			}
+			AND = {
+				capital_scope = { region = russia_region }
+				FROM = { capital_scope = { region = russia_region } }
+			}
+		}
+		FROM = {
+			OR = {
+				culture_group = east_slavic
+				has_reform = principality
+			}
+			OR = {
+				NOT = { total_development = 30 }
+				ROOT = { government = republic }
+			}
+		}
+	}
+
+	war_goal = take_capital_vassalize
+}

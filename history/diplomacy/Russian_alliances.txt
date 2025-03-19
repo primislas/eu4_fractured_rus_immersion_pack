@@ -1,0 +1,19 @@
+# Kyiv and Zaporozhie
+vassal = {
+	first = KIE
+	second = ZAZ
+	start_date = 1444.1.1
+	end_date = 1500.4.1
+}
+vassal = {
+	first = VOL
+	second = TRV
+	start_date = 1444.1.1
+	end_date = 1500.4.1
+}
+vassal = {
+	first = PLT
+	second = MNK
+	start_date = 1444.1.1
+	end_date = 1500.4.1
+}

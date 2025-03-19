@@ -1,0 +1,49 @@
+owner = TVE
+controller = TVE
+add_core = TVE
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = KAZ
+religion = orthodox
+culture = russian
+trade_goods = grain
+capital = Tver
+base_production = 4
+base_tax = 4
+base_manpower = 3
+is_city = yes
+hre = no
+1450.1.1 = {
+	discovered_by = SIB
+}
+1485.9.11 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	remove_core = TVE
+}
+1503.4.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+}
+1560.1.1 = {
+	base_production = 6
+	base_tax = 6
+}
+1598.1.1 = {
+	unrest = 5
+}
+1613.1.1 = {
+	unrest = 0
+}
+1711.1.1 = {
+	base_production = 7
+	base_tax = 7
+}
+1767.1.1 = {
+	base_production = 8
+	base_tax = 8
+}

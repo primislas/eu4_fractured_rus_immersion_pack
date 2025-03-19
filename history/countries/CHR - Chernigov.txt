@@ -1,0 +1,27 @@
+technology_group = eastern
+capital = 280
+fixed_capital = 280
+government = monarchy
+government_rank = 1
+add_government_reform = feudalism_reform
+historical_rival = TVE
+historical_rival = CRI
+historical_friend = KIE
+historical_friend = SMO
+primary_culture = ruthenian
+religion = orthodox
+1434.2.27 = {
+	monarch = {
+		adm = 4
+		dip = 3
+		mil = 2
+		name = Sviatoslav
+		dynasty = Rurykovych
+		birth_date = 1415.3.10
+		regent = no
+		female = no
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = well_connected_personality
+	clear_scripted_personalities = yes
+}

@@ -1,0 +1,67 @@
+owner = VOL
+controller = VOL
+add_core = VOL
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = ottoman
+discovered_by = muslim
+religion = orthodox
+culture = ruthenian
+trade_goods = livestock
+capital = Drohobych
+base_production = 2
+base_tax = 2
+base_manpower = 1
+is_city = yes
+hre = no
+1492.1.1 = {
+	unrest = 0
+}
+1569.7.1 = {
+	remove_core = POL
+}
+1572.1.1 = {
+	unrest = 6
+}
+1588.1.1 = {
+	revolt = {
+		type = revolutionary_rebels
+		size = 0
+	}
+}
+1589.1.1 = {
+	unrest = 0
+	revolt = {
+	}
+}
+1591.1.1 = {
+	unrest = 5
+}
+1593.1.1 = {
+	unrest = 0
+}
+1594.1.1 = {
+	unrest = 6
+}
+1596.1.1 = {
+	unrest = 0
+}
+1648.1.1 = {
+	revolt = {
+		type = nationalist_rebels
+		size = 0
+	}
+}
+1654.1.1 = {
+	remove_core = ZAZ
+	revolt = {
+	}
+}
+1772.8.5 = {
+	remove_core = PLC
+}

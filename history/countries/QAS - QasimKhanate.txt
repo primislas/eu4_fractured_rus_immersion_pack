@@ -1,0 +1,213 @@
+technology_group = nomad_group
+capital = 1778
+government = tribal
+government_rank = 1
+add_government_reform = steppe_horde
+primary_culture = mishary
+religion = orthodox
+religious_school = hanafi_school
+1445.7.7 = {
+	heir = {
+		adm = 2
+		birth_date = 1440.1.1
+		dip = 2
+		mil = 2
+		name = Daniyal
+		death_date = 1486.1.1
+		monarch_name = Daniyal
+		claim = 95
+		female = no
+	}
+}
+1469.1.1 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = Daniyal
+		dynasty = Genghisid
+		regent = no
+		female = no
+	}
+}
+1470.1.1 = {
+	heir = {
+		adm = 2
+		birth_date = 1465.1.1
+		dip = 2
+		mil = 2
+		name = Qarakucha
+		death_date = 1486.1.1
+		monarch_name = Qarakucha
+		claim = 95
+		female = no
+	}
+}
+1486.1.1 = {
+	heir = {
+		adm = 2
+		birth_date = 1470.1.1
+		dip = 2
+		mil = 2
+		name = Satilghan
+		death_date = 1506.12.1
+		monarch_name = Satilghan
+		claim = 95
+		dynasty = Giray
+		female = no
+	}
+}
+1491.1.1 = {
+	heir = {
+		adm = 2
+		birth_date = 1472.1.1
+		dip = 2
+		mil = 2
+		name = Janay
+		monarch_name = Janay
+		claim = 95
+		dynasty = Giray
+		female = no
+	}
+}
+1508.1.1 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = Janay
+		dynasty = Qasim
+		regent = no
+		female = no
+	}
+}
+1512.1.1 = {
+	heir = {
+		adm = 2
+		birth_date = 1500.1.1
+		dip = 2
+		mil = 2
+		name = "Shah Ali"
+		death_date = 1566.4.22
+		monarch_name = "Shah Ali"
+		claim = 95
+		dynasty = Genghisid
+		female = no
+	}
+}
+1516.1.1 = {
+	heir = {
+		adm = 2
+		birth_date = 1516.1.1
+		dip = 2
+		mil = 2
+		name = "Jan Ali"
+		death_date = 1535.9.25
+		monarch_name = "Jan Ali"
+		claim = 95
+		dynasty = Qasim
+		female = no
+	}
+}
+1519.4.1 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = "Jan Ali"
+		dynasty = Genghisid
+		regent = no
+		female = no
+	}
+}
+1532.1.1 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = "Shah Ali"
+		dynasty = Genghisid
+		regent = no
+		female = no
+	}
+}
+1566.4.22 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = "Sain Bulat"
+		dynasty = Genghisid
+		regent = no
+		female = no
+	}
+}
+1573.7.1 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = "Mustafa Ali"
+		dynasty = Genghisid
+		regent = no
+		female = no
+	}
+}
+1590.1.1 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = "Urus Muhammad"
+		dynasty = Genghisid
+		regent = no
+		female = no
+	}
+}
+1610.9.1 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = "Alp Arslan"
+		dynasty = Shaybanid
+		regent = no
+		female = no
+	}
+}
+1624.1.1 = {
+	heir = {
+		adm = 2
+		birth_date = 1624.1.1
+		dip = 2
+		mil = 2
+		name = "Sayid Burhan"
+		death_date = 1679.1.1
+		monarch_name = "Sayid Burhan"
+		claim = 95
+		dynasty = Shaybanid
+		female = no
+	}
+}
+1626.1.1 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = "Sayid Burhan"
+		dynasty = Shaybanid
+		regent = no
+		female = no
+	}
+}
+1679.1.1 = {
+	monarch = {
+		adm = 2
+		dip = 2
+		mil = 2
+		name = "Fatima Soltan"
+		dynasty = Shaybanid
+		regent = no
+		female = yes
+	}
+}

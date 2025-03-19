@@ -1,0 +1,26 @@
+technology_group = eastern
+capital = 275
+fixed_capital = 275
+government = monarchy
+government_rank = 1
+add_government_reform = feudalism_reform
+historical_rival = LIV
+historical_rival = PSK
+historical_friend = LIT
+primary_culture = byelorussian
+religion = orthodox
+1434.2.27 = {
+	monarch = {
+		adm = 5
+		dip = 3
+		mil = 3
+		name = Viacheslav
+		dynasty = Rurykovych
+		birth_date = 1415.3.10
+		regent = no
+		female = no
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = calm_personality
+	clear_scripted_personalities = yes
+}

@@ -1,0 +1,26 @@
+technology_group = eastern
+capital = 280
+fixed_capital = 280
+government = monarchy
+government_rank = 1
+add_government_reform = feudalism_reform
+historical_rival = CRI
+historical_rival = MOS
+historical_friend = CHR
+primary_culture = ruthenian
+religion = orthodox
+1434.2.27 = {
+	monarch = {
+		adm = 3
+		dip = 4
+		mil = 1
+		name = Volodymyr
+		dynasty = Rurykovych
+		birth_date = 1415.3.10
+		regent = no
+		female = no
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = intricate_web_weaver_personality
+	clear_scripted_personalities = yes
+}

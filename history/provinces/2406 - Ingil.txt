@@ -1,0 +1,31 @@
+owner = ZAZ
+controller = ZAZ
+add_core = CRI
+add_core = ZAZ
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+religion = sunni
+culture = crimean
+trade_goods = wine
+capital = Kyzy-Kermen
+base_production = 1
+base_tax = 1
+base_manpower = 1
+is_city = yes
+hre = no
+add_local_autonomy = 25
+1444.1.1 = {
+	religion = orthodox
+	culture = ruthenian
+}
+1569.7.1 = {
+	remove_core = LIT
+}
+1570.1.1 = {
+	remove_core = CRI
+	religion = orthodox
+	culture = ruthenian
+}

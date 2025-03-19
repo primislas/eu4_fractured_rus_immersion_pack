@@ -1,0 +1,11 @@
+275 = Polatsk
+276 = Mensk
+277 = Berest
+292 = Mahilyow
+293 = Smalensk
+771 = Vitsebsk
+1941 = Turaw
+4246 = Mstsislaw
+4537 = Navahrudak
+4544 = Babruysk
+4545 = Slutsk

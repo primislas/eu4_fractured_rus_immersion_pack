@@ -1,0 +1,4 @@
+# Rus
+TRV	= "countries/Turov.txt"
+MNK	= "countries/Minsk.txt"
+ARH	= "countries/Pomorye.txt"

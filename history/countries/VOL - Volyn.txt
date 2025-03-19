@@ -1,0 +1,25 @@
+technology_group = eastern
+capital = 279
+fixed_capital = 279
+government = monarchy
+government_rank = 1
+add_government_reform = feudalism_reform
+historical_rival = POL
+historical_rival = LIT
+primary_culture = ruthenian
+religion = orthodox
+1434.2.27 = {
+	monarch = {
+		adm = 2
+		dip = 4
+		mil = 5
+		name = "Danylo III the Brave"
+		dynasty = Rurykovych
+		birth_date = 1415.3.10
+		regent = no
+		female = no
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = inspiring_leader_personality
+	clear_scripted_personalities = yes
+}

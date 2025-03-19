@@ -1,0 +1,50 @@
+owner = QAS
+controller = QAS
+add_core = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = nomad_group
+discovered_by = ottoman
+religion = sunni
+culture = kazani
+trade_goods = livestock
+capital = Mohshi
+base_production = 3
+base_tax = 3
+base_manpower = 2
+is_city = yes
+hre = no
+1552.10.2 = {
+	remove_core = KAZ
+}
+1641.1.1 = {
+	religion = orthodox
+	culture = russian
+	capital = Saransk
+}
+1670.3.1 = {
+	unrest = 6
+	revolt = {
+		type = anti_tax_rebels
+		name = "Stepan Razin"
+		size = 2
+	}
+}
+1671.4.14 = {
+	unrest = 0
+	revolt = {
+	}
+}
+1773.9.13 = {
+	unrest = 6
+	revolt = {
+		type = anti_tax_rebels
+		name = "Yemelyan Pugachev"
+		size = 2
+	}
+}
+1775.2.1 = {
+	unrest = 0
+	revolt = {
+	}
+}

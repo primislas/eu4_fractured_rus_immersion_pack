@@ -1,0 +1,26 @@
+technology_group = eastern
+capital = 293
+fixed_capital = 293
+government = monarchy
+government_rank = 1
+add_government_reform = feudalism_reform
+historical_rival = MOS
+historical_rival = TVE
+historical_friend = CHR
+primary_culture = byelorussian
+religion = orthodox
+1434.2.27 = {
+	monarch = {
+		adm = 3
+		dip = 4
+		mil = 3
+		name = Izyaslav
+		dynasty = Rurykovych
+		birth_date = 1415.3.10
+		regent = no
+		female = no
+	}
+	add_ruler_personality = just_personality
+	add_ruler_personality = tolerant_personality
+	clear_scripted_personalities = yes
+}

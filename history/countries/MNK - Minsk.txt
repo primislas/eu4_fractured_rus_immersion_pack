@@ -1,0 +1,8 @@
+technology_group = eastern
+capital = 276
+fixed_capital = 276
+government = monarchy
+government_rank = 1
+add_government_reform = feudalism_reform
+primary_culture = byelorussian
+religion = orthodox
